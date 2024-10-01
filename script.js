@@ -31,24 +31,28 @@
 
     // let selectedColors = ['red','blue'];
     // selectedColors[2] = 'green';
-    // console.log(selectedColors.length);
+    // console.log(selectedColors.length);q
 
-     let ='a = ?';
-     prompt('a=?');
-     prompt('b=?');
+     
+     var a = prompt('a=?');
+     var b = prompt('b=?');
+     var a = Number(a);
+     var b = Number(b);
+     var sum = (a + b);
 
-     document.write(sum)
+     
+     document.write('the sum is: ' + sum);
 
 
-    function greet(name, lastName) {
-        console.log('hello' + name + lastName);
-    }
-    greet('John', 'Smith')
+    // function greet(name, lastName) {
+    //     console.log('hello' + name + lastName);
+    // }
+    // greet('John', 'Smith')
 
     // calculating a value
 
-    function square(number) {
-        return number * number;
-    }
-    console.log(square(2));
+    // function square(number) {
+    //     return number * number;
+    // }
+    // console.log(square(2));
 
