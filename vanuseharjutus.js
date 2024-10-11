@@ -1,7 +1,7 @@
 let age = prompt("sisesta oma vanus");
-while (isNaN(age) || age === "") {
-  age = prompt("palun sisesta ainult numbrid vanuse jaoks:");
-}
+if (isNaN(age) || age === "") {
+  age = alert("järgmine kord palun sisesta ainult numbrid vanuse jaoks:");
+} else{
 if (age >= 7 && age <= 16) {
   alert("käid põhikoolis");
   alert("mine sööma kell 10");
@@ -14,5 +14,5 @@ if (age >= 7 && age <= 16) {
 } else if (age <= 6) {
   alert("oled liiga noor");
   alert("sulle me süüa ei paku");
-}
+}}
 console.log("sinu vanus on " + age);
