@@ -33,18 +33,12 @@
     // selectedColors[2] = 'green';
     // console.log(selectedColors.length);q
 
-<<<<<<< HEAD
-    /* let ='a = ?';
-     prompt('a=?');
-     prompt('b=?');
-=======
      
      var a = prompt('a=?');
      var b = prompt('b=?');
      var a = Number(a);
      var b = Number(b);
      var sum = (a + b);
->>>>>>> refs/remotes/origin/main
 
      
      document.write('the sum is: ' + sum);
@@ -57,26 +51,8 @@
 
     // calculating a value
 
-<<<<<<< HEAD
-    function square(number) {
-        return number * number;
-    }
-    console.log(square(2)); */
-
-    // a=? , b=?
-    //sum of a+b is:
-    // let a = prompt('a=?');
-    // let b = prompt('b=?');
-
-// Math.PI;
-// console.log(Math.PI);
-
-
-
-=======
     // function square(number) {
     //     return number * number;
     // }
     // console.log(square(2));
->>>>>>> refs/remotes/origin/main
 
