@@ -74,3 +74,82 @@
 // userName = userName.trim().charAt(0).toUpperCase() + userName.trim().slice(1).toLowerCase();
 // console.log(userName);
 
+// while loop
+
+// let loggedIn;
+// let userName;
+// let userPassword;
+
+// while(!loggedIn) {
+//     userName = prompt('Enter user name');
+//     userPassword = prompt('Enter password');
+
+//     if(userName === "asd123" && userPassword === "qwerty") {
+//         loggedIn =true;
+//         console.log("You are logged in");
+
+//     } else{
+//         console.log("Wrong credentials, do it again");
+//     }
+// }
+
+// let loggedIn;
+// let userName;
+// let userPassword;
+
+//  do{
+//     userName = prompt('Enter user name');
+//     userPassword = prompt('Enter password');
+
+//     if(userName === "asd123" && userPassword === "qwerty") {
+//         loggedIn =true;
+//         console.log("You are logged in");
+
+//     } else{
+//         console.log("Wrong credentials, do it again");
+//     }
+// }while(!loggedIn);
+
+// for(let i= 20; i >= 0; i--){
+//     console.log(i);
+//     if(i == 13){
+//         break;
+//         // continue;
+//     }
+// }
+// console.log("happy nYear");
+
+// number guessing game
+
+const min = 1;
+const max = 100;
+const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(randomNumber);
+
+let guess;
+
+while(isNaN(guess)){
+    guess = parseInt(prompt("Insert an integer 1-100"));
+    console.log("you must insert an integer 1-100");
+
+    
+}
+// if(guess === randomNumber) {
+//     alert("you win, yiss!");
+
+// } else if (guess < randomNumber) {
+//     alert("your guess is too low!");
+//     guess = Number(prompt("Insert an integer 1-100"));
+// } else{
+//     alert("your guess is too high!")
+//     guess = Number(prompt("Insert an integer 1-100"));
+// }
+do {
+    if(guess < randomNumber) {
+        alert("your guess is too low");
+        guess = Number(prompt("Insert an integer 1-100"));
+    } else {
+        guess
+    }
+    
+} while(guess === randomNumber);
