@@ -33,12 +33,12 @@
 // }
 //p6hikool 7-16, gymn 17-20, t2iskasvand 20+
 //söövad 10,11,12, kasuta == ja ===, tee promptiks
-let age = 19;
-if(age >= 7 && age <= 16){
-    console.log('käid põhikoolis');     
-}
-else if(age >= 17 && age <= 20){
-    console.log('käid gümnaasiumis');
-}
+// let age = 19;
+// if(age >= 7 && age <= 16){
+//     console.log('käid põhikoolis');     
+// }
+// else if(age >= 17 && age <= 20){
+//     console.log('käid gümnaasiumis');
+// }
 
 

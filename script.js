@@ -34,14 +34,14 @@
     // console.log(selectedColors.length);q
 
      
-     var a = prompt('a=?');
-     var b = prompt('b=?');
-     var a = Number(a);
-     var b = Number(b);
-     var sum = (a + b);
+    //  var a = prompt('a=?');
+    //  var b = prompt('b=?');
+    //  var a = Number(a);
+    //  var b = Number(b);
+    //  var sum = (a + b);
 
      
-     document.write('the sum is: ' + sum);
+    //  document.write('the sum is: ' + sum);
 
 
     // function greet(name, lastName) {
