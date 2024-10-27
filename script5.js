@@ -41,7 +41,7 @@ console.log(totalBooks);
 let shortestTitle = books.reduce((shortest, current) => {
   return current.length < shortest.length ? current : shortest;
 });
-console.log(shortestTitle);// segane
+console.log(shortestTitle); // segane
 
 let shortTitle = books[0];
 for (let i = 1; i < books.length; i++) {
@@ -59,5 +59,23 @@ console.log(books);
 console.log(books.includes("The Great Gatsby"));
 
 //5.filtreeri temperatuurid +20kraadi
-let soeKraad
-function soeKraad(temperatures)
+let soeKraad = temperatures.filter((number) => number > 20);
+console.log(soeKraad);
+
+//6.Arvuta temperatuuride keskmine. Kasuta reduce et arvutada keskmine
+let keskmineTemperatuur =
+  temperatures.reduce((acc, curr) => acc + curr, 0) / temperatures.length;
+console.log(keskmineTemperatuur);
+
+/* 7. Temperatuuride teisendamine Fahrenheiti:
+teisenda iga temperatures massiivi element celsiuse kraadidest Fahrenheiti kraadidesse
+(valem:F=C * 9/5 + 32) ja kuva tulemus uues massiivis.
+ */
+let fTemperatures = temperatures.map(function(number) {
+  return number * 9/5 + 32 + ' F';
+});
+console.log(fTemperatures);
+
+//8. Sorteeri temperatuurid kahanevas järjekorras:
+console.log(temperatures.sort().reverse());
+console.log(fTemperatures.sort().reverse());
