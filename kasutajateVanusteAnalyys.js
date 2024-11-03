@@ -52,6 +52,16 @@ function addIsAdultField(user) {
     return user;
       
 }
-console.log(addIsAdultField(user));
+const usersAddAdult = users.map(addIsAdultField);
+console.log(usersAddAdult);
 
-//faulty
+//logUser: funktsiooniväljend, mis võtab argumendiks 
+//kasutaja objekti ja kuvab tema nime ja täiskasvanustaatuse.
+
+function logUser(user) {
+  return {
+    name: user.name,
+    isAdult: user.isAdult
+  };
+}
+console.log(users.map(logUser));
